@@ -1,0 +1,32 @@
+Pseudo Code for Code Quiz
+
+1. create variables for element id so you can access thenm
+
+2. create array with objects that includes your 5 questions and you 5 answers ex.var quizQuestions = [{q: "what is a pet" , a: dog,cat,frog,}]
+2a . variable for score ex. var score = 0
+3. create event listener for click of the start button ,inside add next function so it starts running it 
+4. create function function roundOneQuestions() {}
+4a. in function create for loop for (var i = 0 ;i < quizQuestions.length; i++)
+
+5. create variables for first set of questions and answers variable ex. (var firstQuestion = quizQuestions[0].q var firstAnswers = quizQuestions[0].a)
+5a. create li inside ordered list element ex. document.createElement("li")
+5b. add button element to li
+6. add the variable for questions to variable for H4 element Id  var h4.textContent = firstQuestion
+7. set button.textContent = firstAnswers
+
+8. create a addEventlistener function for the click of the buttons in your list {}
+9. set conditions in functions If (click === "whatever answer is ){
+    Score++ 5 *do something to close
+append some text saying correct}
+ else { *do something to clock  and append text saying incorrect }
+10. add next function to the end of the event listener so it can run after conditional statement
+11.create new functions repeating same code for 5-11 but for next questions.
+
+
+
+    
+
+
+
+
+ 
